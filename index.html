@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+    <title>CETRAK CETREK LAMPU JAVASCRIPT</title>
+</head>
+
+<body class="flex flex-col justify-center items-center bg-gray-800 min-h-screen gap-10">
+
+    <!-- RUANG KELUARGA -->
+    <dev class="bg-gray-700 justify-center items-center">
+
+        <dev
+            class="bg-gray-700 p-5 flex flex-row justify-center items-center text-4xl font-bold text-white">
+            <p>RUANG KELUARGA</p>
+        </dev>
+        <dev class="flex flex-col justify-center items-center">
+            <label for="ruangKeluarga" class="inline-flex relative items-center cursor-pointer">
+                <input type="checkbox" id="ruangKeluarga" class="sr-only peer" onchange="saklarRuangKeluarga()">
+                <div
+                    class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                </div>
+            </label>
+        </dev>
+
+        <dev class="flex justify-center items-centers gap-10 bg-gray-700 p-10">
+            <div>
+                <!-- LAMPU 1 -->
+                <img src="assets/images/off.gif" alt="" id="lampuKeluarga1" />
+                <dev class="flex flex-row justify-center items-center py-5">
+                    <label for="keluarga1" class="inline-flex relative items-center cursor-pointer">
+                        <input type="checkbox" id="keluarga1" class="sr-only peer" onchange="saklarKeluarga()">
+                        <div
+                            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                        </div>
+                    </label>
+                </dev>
+            </div>
+
+            <div>
+                <!-- LAMPU 2-->
+                <img src="assets/images/off.gif" alt="" id="lampuKeluarga2" />
+                <dev class="flex flex-row justify-center items-center py-5">
+                    <label for="keluarga2" class="inline-flex relative items-center cursor-pointer">
+                        <input type="checkbox" id="keluarga2" class="sr-only peer" onchange="saklarKeluarga()">
+                        <div
+                            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                        </div>
+                    </label>
+                </dev>
+            </div>
+
+            <div>
+                <!-- LAMPU 3 -->
+                <img src="assets/images/off.gif" alt="" id="lampuKeluarga3" />
+                <dev class="flex flex-row justify-center items-center py-5">
+                    <label for="keluarga3" class="inline-flex relative items-center cursor-pointer">
+                        <input type="checkbox" id="keluarga3" class="sr-only peer" onchange="saklarKeluarga()">
+                        <div
+                            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                        </div>
+                    </label>
+                </dev>
+            </div>
+        </dev>
+    </dev>
+    <!-- RUANG KELUARGA END-->
+
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    <script src="saklar.js" type="application/javascript"></script>
+</body>
+
+</html>
